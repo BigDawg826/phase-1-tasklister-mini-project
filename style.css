@@ -35,3 +35,23 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+@counter-style checkMark {
+  system: cyclic;
+  symbols: "\2705";
+  suffix: " ";
+}
+@counter-style xMark {
+  system: cyclic;
+  symbols: "\274E";
+  suffix: " ";
+}
+ul {
+  list-style: checkMark;
+}
+ul li {
+  padding: 7px 5px;
+}
+p {
+  text-align: center;
+  padding-left: 0;
+}
